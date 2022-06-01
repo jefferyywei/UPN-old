@@ -14,7 +14,7 @@ body{
     height:22vh;
 }
 
-h2 {
+.mission {
     position:absolute;
     font-family: 'Fira Sans', sans-serif;
     font-weight: 700;
@@ -24,7 +24,7 @@ h2 {
     color: #212121;
 }
 
-p{
+.container p{
     position:relative;
     font-family: 'Merriweather Sans';
     font-weight: 300;
@@ -56,4 +56,87 @@ p{
     top:42vh;
     left:78vw;
     height:13vh;
+}
+
+.green{
+    background:rgba(99, 212, 113, 0.14);
+    position:relative;
+    height:49vh;
+    width:100%;
+    margin-top:23vh;
+
+}
+
+.circle-red{
+    width:4.7rem;
+}
+
+.history-red{
+    position:absolute;
+    left:11.5vw;
+    top:-11%;
+}
+
+.history-icon{
+    position:absolute;
+    width:3.6rem;
+    left:12.20vw;
+    top:-8.3%;
+}
+
+.history h2{
+    color:#F96A70;
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size:3rem;
+    position:absolute;
+    left:18vw;
+    top:-18%;
+}
+
+.history p{
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 300;
+    width:36%;
+    position:absolute;
+    left:11.5vw;
+    top:10%;
+    font-size:1.7rem;
+}
+
+.team-red{
+    position:absolute;
+    left:55vw;
+    top:-11%;
+}
+
+.team-icon{
+    position:absolute;
+    width:3.6rem;
+    left:55.62vw;
+    top:-8.4%;
+}
+
+.team h2{
+    color:#F96A70;
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size:3rem;
+    position:absolute;
+    left:61.5vw;
+    top:-18%;
+}
+
+.team p{
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 300;
+    width:36%;
+    position:absolute;
+    left:55vw;
+    top:10%;
+    font-size:1.7rem;
 }
