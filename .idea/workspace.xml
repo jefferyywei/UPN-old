@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c1a0360e-f9bc-465f-9d48-2b768f890271" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/about-home-component/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/UPNWebsite.iml" beforeDir="false" afterPath="$PROJECT_DIR$/about-home-component/.idea/UPNWebsite.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/about-home-component/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/about-home-component/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/ABOUT.png" beforeDir="false" afterPath="$PROJECT_DIR$/about-home-component/assets/ABOUT.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/circle-red.png" beforeDir="false" afterPath="$PROJECT_DIR$/about-home-component/assets/circle-red.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/dots1.png" beforeDir="false" afterPath="$PROJECT_DIR$/about-home-component/assets/dots1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/green-rect.png" beforeDir="false" afterPath="$PROJECT_DIR$/about-home-component/assets/green-rect.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/group-img.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/about-home-component/assets/group-img.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/history-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/about-home-component/assets/history-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/team-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/about-home-component/assets/team-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/about-home-component/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/about-home-component/styles.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="29fU28RCYZStv9sUR8ZmA78z55X" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/about-home-component" />
+      <recent name="$PROJECT_DIR$/about-home-compoennt" />
+      <recent name="$PROJECT_DIR$/assets" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/UPNWebsite/about-home-component/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c1a0360e-f9bc-465f-9d48-2b768f890271" name="Changes" comment="" />
+      <created>1653503425305</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1653503425305</updated>
+      <workItem from="1653503434206" duration="5871000" />
+      <workItem from="1653941244037" duration="185000" />
+      <workItem from="1654105820024" duration="2694000" />
+      <workItem from="1654108686216" duration="670000" />
+      <workItem from="1654109408523" duration="60000" />
+      <workItem from="1654224951195" duration="180000" />
+      <workItem from="1654559355497" duration="78000" />
+      <workItem from="1654559444841" duration="154000" />
+      <workItem from="1654559610094" duration="291000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
