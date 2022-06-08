@@ -1,0 +1,66 @@
+html, body {
+  height: 65%;
+}
+/* footer */
+body {
+  background-color: #F2F2F2;
+}
+
+#upn {
+  width: 120px;
+  height: 120px;
+  left: 120px;
+  top: 70px;
+  margin-bottom: -20px;
+}
+
+#icons {
+  width: 185px;
+  height: 48px;
+  margin-left: -10px;
+  margin-top: -20px;
+}
+
+p {
+  font-family: 'Fira Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 36px;
+  color: #5C5C5C; 
+  margin-top: -.05px;
+}
+
+mark.red {
+  color: #F96A70;
+  background: none;
+}
+
+.button {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 23px;
+  line-height: 60px;
+}
+
+.column {
+  float: left;
+  padding: 0px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.menu {
+  width: 25%;
+  float: right;
+}
+
+.content {
+  width: 75%;
+  float: left;
+}
