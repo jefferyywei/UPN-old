@@ -6,8 +6,7 @@ body{
     padding: 0;
 }
 
-.container{
-    margin-top:5%;
+.about-container{
     position:relative;
 }
 
@@ -25,7 +24,7 @@ body{
     color: #212121;
 }
 
-.container p{
+.about-container p{
     position:relative;
     font-family: 'Merriweather Sans';
     font-weight: 300;
@@ -65,7 +64,6 @@ body{
     height:49vh;
     width:100%;
     margin-top:23vh;
-    margin-bottom:3%
 
 }
 

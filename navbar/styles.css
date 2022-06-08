@@ -9,7 +9,9 @@
 .nav-item {
   font-family: "Fira Sans", sans-serif;
   font-weight: 300;
-  font-size: 1.2rem;
+  font-size: 1.2vw;
+    color: black;
+    text-decoration: none;
 }
 
 nav {
@@ -32,7 +34,7 @@ nav {
 }
 
 nav .nav-container {
-  width: 80vw;
+  width: 85vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -64,14 +66,12 @@ nav .nav-container .logo {
 nav .nav-container ul {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
-  list-style: none;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  gap: 2vw;
+    list-style: none;
+    margin-bottom:0;
+    padding-left:0;
+    display: flex;
+    gap: 2vw;
+}
 }
 
 nav .nav-container ul li a {
@@ -121,6 +121,7 @@ nav .nav-container .right #donate {
   border-radius: 8px;
   font-family: "Fira Sans", sans-serif;
   font-weight: 300;
-  font-size: 1.2rem;
+    font-size: 1.1vw;
 }
+
 /*# sourceMappingURL=styles.css.map */
