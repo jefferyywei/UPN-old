@@ -7,6 +7,7 @@ body{
 }
 
 .container{
+    margin-top:5%;
     position:relative;
 }
 
@@ -64,6 +65,7 @@ body{
     height:49vh;
     width:100%;
     margin-top:23vh;
+    margin-bottom:3%
 
 }
 
