@@ -1,25 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400&display=swap");
-* {
-  padding: 0;
-  margin: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-.nav-item {
-  font-family: "Fira Sans", sans-serif;
-  font-weight: 300;
-  font-size: 1.2vw;
-    color: black;
-    text-decoration: none;
-}
-
 nav {
-    padding:2.2rem;
   width: 100vw;
-    z-index: 100;
-
-    height: 7vh;
+  height: 7vh;
   background-color: white;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -31,10 +12,12 @@ nav {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  top: 0;
+  z-index: 1;
 }
 
 nav .nav-container {
-  width: 85vw;
+  width: 80vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -48,7 +31,7 @@ nav .nav-container {
 }
 
 @media screen and (max-width: 1000px) {
-  nav .container {
+  nav .nav-container {
     width: 95vw;
   }
 }
@@ -66,17 +49,22 @@ nav .nav-container .logo {
 nav .nav-container ul {
   display: -webkit-box;
   display: -ms-flexbox;
-    list-style: none;
-    margin-bottom:0;
-    padding-left:0;
-    display: flex;
-    gap: 2vw;
-}
+  display: flex;
+  list-style: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  gap: 2vw;
 }
 
 nav .nav-container ul li a {
   color: black;
   text-decoration: none;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 300;
+  font-size: 24px;
 }
 
 nav .nav-container .right {
@@ -121,7 +109,6 @@ nav .nav-container .right #donate {
   border-radius: 8px;
   font-family: "Fira Sans", sans-serif;
   font-weight: 300;
-    font-size: 1.1vw;
+  font-size: 24px;
 }
-
 /*# sourceMappingURL=styles.css.map */

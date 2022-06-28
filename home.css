@@ -1,15 +1,22 @@
-#about{
-    margin-top:5%;
+#about {
+    margin-top: 5%;
 }
 
-#events{
-    margin-top:3%;
+#events {
+    margin-top: 3%;
 }
 
-#join{
-    margin-top:10%;
+#join {
+    margin-top: 10%;
 }
 
-#footer{
-    margin-top:8%;
+#footer {
+    margin-top: 8%;
+}
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
