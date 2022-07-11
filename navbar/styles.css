@@ -1,4 +1,5 @@
 nav {
+    z-index:100;
   width: 100vw;
   height: 7vh;
   background-color: white;
@@ -13,7 +14,6 @@ nav {
       -ms-flex-align: center;
           align-items: center;
   top: 0;
-  z-index: 1;
 }
 
 nav .nav-container {
@@ -64,7 +64,7 @@ nav .nav-container ul li a {
   text-decoration: none;
   font-family: "Fira Sans", sans-serif;
   font-weight: 300;
-  font-size: 24px;
+  font-size: 18px;
 }
 
 nav .nav-container .right {
@@ -104,11 +104,11 @@ nav .nav-container .right .icon {
 
 nav .nav-container .right #donate {
   background-color: #f96a70;
-  padding: 12px 20px;
+  padding: 10px 15px;
   border: none;
   border-radius: 8px;
   font-family: "Fira Sans", sans-serif;
   font-weight: 300;
-  font-size: 24px;
+  font-size: 18px;
 }
 /*# sourceMappingURL=styles.css.map */

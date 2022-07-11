@@ -19,7 +19,7 @@ body{
     font-family: 'Fira Sans', sans-serif;
     font-weight: 700;
     font-size:6rem;
-    top:-5vh;
+    top:0vh;
     left:12vw;
     color: #212121;
 }
@@ -31,8 +31,8 @@ body{
     color: #212121;
     width:40vw;
     font-size:1.7rem;
-    left:11.5vw;
-    margin-top:0;
+    left:8vw;
+    margin-top:3vh;
 }
 
 .rect{
@@ -92,7 +92,7 @@ body{
     font-size:3rem;
     position:absolute;
     left:18vw;
-    top:-18%;
+    top:-8%;
 }
 
 .history p{
@@ -102,8 +102,8 @@ body{
     width:36%;
     position:absolute;
     left:11.5vw;
-    top:10%;
-    font-size:1.7rem;
+    top:12%;
+    font-size:1.6rem;
 }
 
 .team-red{
@@ -127,7 +127,7 @@ body{
     font-size:3rem;
     position:absolute;
     left:61.5vw;
-    top:-18%;
+    top:-8%;
 }
 
 .team p{
@@ -137,6 +137,6 @@ body{
     width:36%;
     position:absolute;
     left:55vw;
-    top:10%;
-    font-size:1.7rem;
+    top:12%;
+    font-size:1.6rem;
 }
