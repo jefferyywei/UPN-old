@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+
+body{
+    margin:0;
+    padding:0;
+}
+
+.sponsors-top{
+position: relative;
+width: 1440px;
+height: 585px;
+
+background: rgba(248, 165, 160, 0.69);
+}
+
+#sponsors1{
+position: absolute;
+width: 950px;
+height: 137px;
+left: 35px;
+top: 110px;
+
+font-family: 'Fira Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 270px;
+line-height: 324px;
+text-align: center;
+
+mix-blend-mode: darken;
+opacity: 0.75;
+}
+
+#wave{
+  position: absolute;
+  bottom:-10px;
+  width:1440px;
+  height:310px;
+}
+
+#sponsorhead{
+  position: absolute;
+  width: 764px;
+  height: 96px;
+  left: 418px;
+  top: 50px;
+
+font-family: 'Fira Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 100px;
+line-height: 138px;
+
+color: #070707;
+
+mix-blend-mode: normal;
+}
+
+#group15{
+    width: 1440px;
+    top: 470px;
+}
+
+#group16{
+    width: 1240px;
+    height:935px;
+    padding-left: 95px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
