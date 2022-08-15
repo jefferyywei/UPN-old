@@ -1,0 +1,194 @@
+html, body {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: white;
+    text-align: center;
+}
+
+main {
+    text-align: left;
+    padding-bottom: 50px;
+}
+
+p {
+    font-family: 'Fira Sans', sans-serif;
+    font-style: normal;
+    /* font-weight: 400; */
+    font-size: 26px;
+    line-height: 32px; 
+    color: #000000;  
+}
+
+h1 {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 36px;
+    color: #F96A70;
+}
+
+h2 {
+    font-family: 'Fira Sans', sans-serif;
+    font-style: normal;
+    font-size: 30px;
+    color: black;
+}
+
+h3 {
+    font-family: 'Fira Sans', sans-serif;
+    font-style: normal;
+    font-size: 28px;
+    color: black;
+}
+
+.resources {
+    margin: 150px;
+    margin-top: 0px;
+    margin-bottom: -50px;
+}
+
+mark.redwords {
+    color: #FF0000;
+    background: none;
+}
+  
+mark.lightred {
+      color: #F96A70;
+      background: none;
+}
+
+mark.small {
+    font-size: 25px;
+    color: #454545;
+    background: none;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: -60px;
+    margin-top: 10px;
+    margin-left: 10px;
+   
+}
+
+#navbar {
+      width: 1263px;
+      height: 56px;
+}
+
+#title {
+      width:1263px;
+      height: 455px; 
+      margin-bottom: -80px;
+}
+
+#greenwave { 
+    width: 1263px;
+    height: 200px;
+    margin-bottom: -8px; 
+    margin-top: 35px;
+}
+
+.videolibrary {
+    margin: 150px;
+    margin-top: 0px;
+    margin-bottom: -45px;
+}
+
+.link {
+    text-align: center;
+    font-weight: bold;
+    margin-top: -20px;
+    text-decoration: underline;
+}
+
+a:link {
+    color: #F96A70;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #F96A70;
+}
+
+a:hover {
+    color: red;
+    text-decoration: none;
+}
+
+a.fom:link {
+    color: #454545 !important;
+}
+
+a.fom:visited {
+    color: #454545 !important;
+}
+
+a.fom:hover {
+    color:#F96A70 !important;
+}
+
+.copingcovid {
+    display: flex;
+    align-items: center;
+}
+
+.covidtext {
+    margin-left: 60px;
+}
+
+.vidlibh1 {
+    text-align: center;
+}
+
+.facts {
+    display: flex;
+    align-items: center;
+}
+
+.factstext {
+    margin-left: 60px;
+}
+
+.mentalhealth {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.mhtext {
+    margin-left: 60px;
+}
+
+.domesticviolence {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.dvtext {
+    margin-left: 60px;
+}
+
+.vidlibh3 {
+    color: red;
+}
+
+.vaping {
+    display: inline;
+    text-align: center;
+}
