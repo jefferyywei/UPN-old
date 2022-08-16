@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+body{
+    margin:0;
+    padding: 0;
+}
+
+.about-container{
+    position:relative;
+}
+
+.about-img{
+    height:22vh;
+}
+
+.mission {
+    position:absolute;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 700;
+    font-size:6rem;
+    top:0vh;
+    left:12vw;
+    color: #212121;
+}
+
+.about-container p{
+    position:relative;
+    font-family: 'Merriweather Sans';
+    font-weight: 300;
+    color: #212121;
+    width:40vw;
+    font-size:1.7rem;
+    left:8vw;
+    margin-top:3vh;
+}
+
+.rect{
+    position:absolute;
+    top:3vh;
+    left:53vw;
+    height:42.5vh;
+    border-radius: 15px;
+}
+
+.group-img{
+    position:absolute;
+    top:7.5vh;
+    left:55vw;
+    height:44vh;
+    border-radius: 15px;
+}
+
+.dots{
+    position:absolute;
+    top:42vh;
+    left:78vw;
+    height:13vh;
+}
+
+.green{
+    background:rgba(99, 212, 113, 0.14);
+    position:relative;
+    height:49vh;
+    width:100%;
+    margin-top:23vh;
+
+}
+
+.circle-red{
+    width:4.7rem;
+}
+
+.history-red{
+    position:absolute;
+    left:11.5vw;
+    top:-11%;
+}
+
+.history-icon{
+    position:absolute;
+    width:3.6rem;
+    left:12.20vw;
+    top:-8.3%;
+}
+
+.history h2{
+    color:#F96A70;
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size:3rem;
+    position:absolute;
+    left:18vw;
+    top:-8%;
+}
+
+.history p{
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 300;
+    width:36%;
+    position:absolute;
+    left:11.5vw;
+    top:12%;
+    font-size:1.6rem;
+}
+
+.team-red{
+    position:absolute;
+    left:55vw;
+    top:-11%;
+}
+
+.team-icon{
+    position:absolute;
+    width:3.6rem;
+    left:55.62vw;
+    top:-8.4%;
+}
+
+.team h2{
+    color:#F96A70;
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size:3rem;
+    position:absolute;
+    left:61.5vw;
+    top:-8%;
+}
+
+.team p{
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 300;
+    width:36%;
+    position:absolute;
+    left:55vw;
+    top:12%;
+    font-size:1.6rem;
+}
