@@ -5,11 +5,6 @@ html, body {
     padding: 0px;
 }
 
-body {
-    background-color: white;
-    text-align: center;
-}
-
 main {
     text-align: left;
     padding-bottom: 50px;
@@ -83,11 +78,6 @@ mark.small {
     margin-top: 10px;
     margin-left: 10px;
    
-}
-
-#navbar {
-      width: 1263px;
-      height: 56px;
 }
 
 #title {
