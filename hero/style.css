@@ -1,0 +1,126 @@
+.hero-div {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+.hero-div #righ {
+  background-image: url("./pic.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 780px) {
+  .hero-div #righ {
+    display: none;
+  }
+}
+
+.hero-div .col {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  background-color: #e1575d;
+  position: relative;
+}
+
+.hero-div .col #whiteblob {
+  position: absolute;
+  top: 45%;
+  right: -50px;
+  width: 90%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  z-index: 1;
+}
+
+.hero-div .col #box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 100px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 908px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 756px;
+}
+
+.hero-div .col #box h1 {
+  font-size: 68px;
+  font-weight: 700;
+}
+
+.hero-div .col #box p {
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.hero-div .col #box div #resources {
+  width: 160px;
+  height: 50px;
+  font-size: 20px;
+  background-color: #cc3f45;
+  color: white;
+  border-radius: 8px;
+  font-weight: 600;
+  border: none;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.hero-div .col #box div #resources:hover {
+  background-color: white;
+  border: solid 2px #cc3f45;
+  color: #cc3f45;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.hero-div .col #box div #donate {
+  width: 130px;
+  height: 50px;
+  font-size: 20px;
+  background-color: white;
+  color: #cc3f45;
+  border-radius: 8px;
+  font-weight: 600;
+  border: solid 2px #cc3f45;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.hero-div .col #box div #donate:hover {
+  background-color: #cc3f45;
+  color: white;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.hero-div .col #redblob {
+  position: absolute;
+  opacity: 30%;
+  mix-blend-mode: soft-light;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  z-index: 0;
+  width: 110%;
+}
+
+.hero-div #wave {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 3;
+}
+/*# sourceMappingURL=style.css.map */
