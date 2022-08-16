@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Upcounty Prevention Network</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="navbar/styles.css">
+    <link rel="stylesheet" href="hero/style.css">
+    <link rel="stylesheet" href="about-component/styles.css">
+    <link rel="stylesheet" href="join-us-component/style.css">
+    <link rel="stylesheet" href="events-component/eventstyles.css">
+    <link rel="stylesheet" href="footer-component/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        _pageId = 1;
+
+        $( document ).ready(function() {
+            console.log("event com ready!");
+            loadevents(_pageId);
+        });
+        function loadevents(pageid){
+            if(pageid == 0){pageid = _pageId - 1};
+            if(pageid==99999){pageid = _pageId + 1};
+            filename = "events-component/event-"+ pageid +".html"
+            $("#eventswizard").load(filename);
+            _pageId = pageid;
+        }
+    </script>
+</head>
+<body>
+    <div id="eventswizard"></div>
+    <div class="position-absolute top-51 start-50 translate-middle">
+        <ul class="pagination">
+          <li class="page-item"><a class="page-link" href="javascript:loadevents(0)"">Previous</a></li>
+          <li class="page-item"><a class="page-link" href="javascript:loadevents(1)">1</a></li>
+          <li class="page-item"><a class="page-link" href="javascript:loadevents(2)">2</a></li>
+          <li class="page-item"><a class="page-link" href="javascript:loadevents(3)">3</a></li>
+          <li class="page-item"><a class="page-link" href="javascript:loadevents(99999)">Next</a></li>
+        </ul>
+      </nav>
+    </div>
+</body>
+</html>
