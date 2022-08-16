@@ -37,6 +37,13 @@
   z-index: 1;
 }
 
+@media screen and (max-width: 780px) {
+  .hero-div .col #whiteblob {
+    right: 0;
+    width: 105%;
+  }
+}
+
 .hero-div .col #box {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -120,7 +127,6 @@
   position: absolute;
   bottom: 0;
   left: 0;
-  width: 100%;
   z-index: 3;
 }
 /*# sourceMappingURL=style.css.map */
