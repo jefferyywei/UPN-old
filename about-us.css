@@ -80,3 +80,16 @@
         transform: translateX(0);
     }
 }
+section.display-1{
+    color: #F96A70;
+}
+  #type-js {  
+  display: inline-block;
+  line-height: 1;
+  border-right: 3px solid #fff;  
+  animation: cursor 1s step-end infinite;
+}
+@keyframes cursor {
+  from, to { border-color: transparent; }
+  50% { border-color: #fff; }
+}
