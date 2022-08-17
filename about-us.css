@@ -85,11 +85,34 @@ section.display-1{
 }
   #type-js {  
   display: inline-block;
-  line-height: 1;
-  border-right: 3px solid #fff;  
+  line-height: 1;  
   animation: cursor 1s step-end infinite;
 }
-@keyframes cursor {
-  from, to { border-color: transparent; }
-  50% { border-color: #fff; }
+
+.gallery-container h1 {
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Droid Sans', sans-serif;
+    font-weight: bold;
+}
+
+
+/* Override bootstrap column paddings */
+.tz-gallery .row > div {
+    padding: 2px;
+}
+
+.tz-gallery .lightbox img {
+    width: 100%;
+    border-radius: 0;
+    position: relative;
+}
+
+@media(max-width: 768px) {
+    body {
+        padding: 0;
+    }
+}
+div.monkey{
+    background-color: #63D471;
 }

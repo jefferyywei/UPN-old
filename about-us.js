@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 document.addEventListener("DOMContentLoaded", function () {
     let letter = 0;
-    const text = "We partner with organizations in the community including local service and religious groups.";
+    const text = "We partner with organizations in the community including local service and religious groups to help people and focus on certain intrest groups so that we can recive the most participation from all groups rather than one.";
     function typeText() {
         if (letter < text.length) {
             document.getElementById("type-js2").innerHTML += text.charAt(letter);
