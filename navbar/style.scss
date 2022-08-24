@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400&display=swap");
 nav {
     height: 4rem;
     width: 100vw;
@@ -7,6 +8,7 @@ nav {
     z-index: 10;
     display: flex;
     align-items: center;
+    font-family: "Fira Sans", sans-serif;
     .nav-container {
         display: flex;
         align-items: center;
