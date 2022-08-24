@@ -24,6 +24,10 @@
             width: 90%;
             transform: translateY(-50%);
             z-index: 1;
+            @media screen and (max-width: 780px) {
+                right: 0;
+                width: 105%;
+            }
         }
         #box {
             display: flex;
@@ -92,7 +96,7 @@
         position: absolute;
         bottom: 0;
         left: 0;
-        width: 100%;
+        
 
         z-index: 3;
     }
