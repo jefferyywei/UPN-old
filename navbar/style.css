@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400&display=swap");
+nav {
+  height: 4rem;
+  width: 100vw;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Fira Sans", sans-serif;
+}
+
+nav .nav-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 80%;
+  max-width: 80rem;
+  margin: 0 auto;
+}
+
+nav .nav-container ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 1080px) {
+  nav .nav-container ul {
+    display: none;
+  }
+}
+
+nav .nav-container ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.4rem;
+}
+
+nav .nav-container .logo {
+  width: 120px;
+  height: 3rem;
+  background-image: url("./upns.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+nav .nav-container .hamburger {
+  display: none;
+  width: 40px;
+  height: 40px;
+}
+
+nav .nav-container .close {
+  display: none;
+  width: 40px;
+  height: 40px;
+}
+
+nav .nav-container .is-active {
+  display: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1080px) {
+  nav .nav-container .is-active {
+    display: block;
+  }
+}
+
+nav .nav-container .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 0.5rem;
+}
+
+nav .nav-container .right a {
+  border: none;
+  color: black;
+  text-decoration: none;
+}
+
+nav .nav-container .right .icon {
+  width: 40px;
+  height: 40px;
+  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+nav .nav-container .right #donate {
+  background-color: #f96a70;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 8px;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+}
+
+@media screen and (max-width: 1080px) {
+  nav .nav-container .right {
+    display: none;
+  }
+}
+
+.mobile-open {
+  height: 0;
+  width: 100vw;
+  position: fixed;
+  z-index: 4;
+  overflow: hidden;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 5rem;
+}
+
+@media screen and (min-width: 1080px) {
+  .mobile-open {
+    display: none;
+  }
+}
+
+.mobile-open ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 5rem;
+  background-color: white;
+  list-style: none;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.mobile-open ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 2rem;
+}
+
+.mobile-open .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  gap: 0.5rem;
+}
+
+.mobile-open .right a {
+  border: none;
+  color: black;
+  text-decoration: none;
+}
+
+.mobile-open .right .icon {
+  width: 40px;
+  height: 40px;
+  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.mobile-open .right #donate {
+  background-color: #f96a70;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 8px;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+}
+
+.open {
+  background: #fff;
+  height: 100vh;
+}
+/*# sourceMappingURL=style.css.map */
