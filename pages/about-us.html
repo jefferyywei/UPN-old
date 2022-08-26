@@ -13,16 +13,26 @@
         crossorigin="anonymous"></script>
     <script type="text/javascript" src="../stylesheets/about-us.js"></script>
     <link rel="stylesheet" href="../stylesheets/about-us.css">
+    <link rel="stylesheet" href="../navbar/styles.css">
+    <link rel="stylesheet" href="../footer-component/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            console.log("ready!");
+            $("#navbar").load("../navbar/navbar.html");
+            $("#footer").load("../footer-component/footer.html");
+        });
+    </script>
 </head>
 
 <body>
-
+    <div id="navbar"></div>
     <section class="parallax">
         <div class="frontpage_text">
             <section class="text-animation display-1 title-text text-center fw-lighter ">
                 About Us
             </section>
-            <div id="wrapper"class="text-center">
+            <div id="wrapper" class="text-center">
                 <div id="wrapper-inner">
                     <div id="scroll-down">
                         <span class="arrow-down text-center">
@@ -110,6 +120,11 @@
                     </ /div>
                 </div>
             </div>
+        </div>
+    </div>
+    <section>
+        <div id="footer"></div>
+    </section>        
 </body>
 
 </html>

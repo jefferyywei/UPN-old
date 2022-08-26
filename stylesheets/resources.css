@@ -80,12 +80,6 @@ mark.small {
    
 }
 
-#title {
-      width:1263px;
-      height: 455px; 
-      margin-bottom: -80px;
-}
-
 #greenwave { 
     width: 1263px;
     height: 200px;
@@ -111,9 +105,7 @@ a:link {
     text-decoration: none;
 }
 
-a:visited {
-    color: #F96A70;
-}
+
 
 a:hover {
     color: red;
