@@ -1,25 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resources</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
     <link href='https://fonts.googleapis.com/css?family=Fira Sans' rel='stylesheet'>
+    <script type="text/javascript" src="../stylesheets/about-us.js"></script>
+    <link rel="stylesheet" href="../stylesheets/about-us.css">
     <link rel="stylesheet" href="../navbar/styles.css">
     <link rel="stylesheet" href="../footer-component/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script>
-        $( document ).ready(function() {
+        $(document).ready(function () {
             console.log("ready!");
             $("#navbar").load("../navbar/navbar.html");
             $("#footer").load("../footer-component/footer.html");
         });
     </script>
 </head>
+
 <body>
     <div id="navbar"></div>
-    
-    <div id="footer"></div>
+    <section class="parallax1">
+        <div class="frontpage_text">
+            <section class="text-animation display-1 title-text text-center fw-lighter ">
+                Resources
+            </section>
+            <div id="wrapper" class="text-center">
+                <div id="wrapper-inner">
+                    <div id="scroll-down">
+                        <span class="arrow-down text-center">
+                        </span>
+                        <span id="scroll-title" class="text-center">
+                            Scroll down
+                        </span>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section>
+        <section class="title-text display-6 pt-3 pb-3 text-center fw-bold caring-community ">Crisis Assessment
+        </section>
+        <div class="resources">
+            <div class=" ">
+                <div class="px-4  overflow-hidden ">
+                    <div class="row gx-5">
+                        <div class="col">
+                            <div class="p-3  border-end border-dark ">
+                                <div class="phone">
+                                    <div class="fs-1 fw-light">Phone</div>
+                                    <ul class="fs-5 lh-lg text-start fw-light">
+                                        <li>Montgomery County Hotline (EveryMind):
+                                            <section class="caring-community">301-738-2255</section>
+                                        </li>
+                                        <li>Montgomery County Crisis Center:
+                                            <section class="caring-community">240-777-4000</section>
+                                        </li>
+                                        <li>988 Suicide & Crisis Lifeline:
+                                            <section class="caring-community">988/1-800-273-8255</section>
+                                        </li>
+                                    </ul>
+                                    <div class="fs-6 fw-lighter">All calls to these services are free and confidential.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="p-3  ">
+                                <div class="phone">
+                                    <div class="fs-1 fw-light">In Person</div>
+                                    <ul class="fs-5 lh-lg text-start fw-light">
+                                        <li>Montgomery County Crisis Center:
+                                            <section class="caring-community">301 Piccard Drive, Rockville
+                                                <br>240-777-4000
+                                            </section>
+                                    </ul>
+                                    <div class="fs-6 fw-lighter">No appointment needed</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="title-text display-6 pt-3 pb-3 text-center fw-bold caring-community ">Non-Crisis Mental
+            Health/Substance Use Assessment</section>
+        <div class=" ">
+            <div class="px-4  overflow-hidden ">
+                <div class="row gx-5">
+                    <div class="col">
+                        <div class="p-3  border-end border-dark ">
+                            <div class="phone">
+                                <div class="fs-1 fw-light">In Person</div>
+                                <ul class="fs-5 lh-lg text-start fw-light">
+                                    <li>Montgomery County Access to Behavioral Health Services
+                                        <div class="text-black-50 fs-6"> Assistance with obtaining appropriate
+                                            outpatient mental health or substance abuse services for adults eligible
+                                            through the public mental health system.</div>
+                                        <section class="caring-community">240-777-1770 <br>255 Rockville Pike, Suite 145
+                                            Rockville, MD</section>
+                                        <div class="fs-5 lh-lg text-start fw-light">Monday - Friday 9AM or 1PM</div>
+                                    </li>
+                                    InfoMontgomery <br>
+
+                                </ul>
+                                <div class="fs-6 fw-lighter">
+                                </div>
+                                </ul>
+                                <div class="fs-6 fw-lighter">No appointment needed</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="p-3">
+                            <div class="phone">
+                                <div class="fs-1 fw-light">Phone</div>
+                                <ul class="fs-5 lh-lg text-start fw-light">
+                                    <li>Montgomery County Crisis Center:
+                                        <section class="caring-community">301 Piccard Drive, Rockville
+                                            <br>240-777-4000
+                                        </section>
+                                </ul>
+                                <div class="fs-6 fw-lighter">All calls to these services are free and confidential.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <div id="footer"></div>
 </body>
+
 </html>
