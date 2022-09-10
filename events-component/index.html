@@ -1,9 +1,10 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Upcounty Prevention Network</title>
     <link rel="stylesheet" href="home.css">
@@ -17,30 +18,46 @@
     <script>
         _pageId = 1;
 
-        $( document ).ready(function() {
+        $(document).ready(function () {
             console.log("event com ready!");
             loadevents(_pageId);
         });
-        function loadevents(pageid){
-            if(pageid == 0){pageid = _pageId - 1};
-            if(pageid==99999){pageid = _pageId + 1};
-            filename = "events-component/event-"+ pageid +".html"
+        function loadevents(pageid) {
+            if (pageid == 0) { pageid = _pageId - 1 };
+            if (pageid == 99999) { pageid = _pageId + 1 };
+            filename = "events-component/event-" + pageid + ".html"
             $("#eventswizard").load(filename);
             _pageId = pageid;
+            console.log(pageid);
+            console.log(pageId);
+        }
+        function eventCounter(pageid) {
+            if (pageid == 3) {
+                _pageId = 1;
+                _pageId = pageid;
+                return pageid
+            }
+            else {
+                pageid = _pageId+1;
+                _pageId = pageid;
+                return pageId;
+            }
         }
     </script>
 </head>
+
 <body>
     <div id="eventswizard"></div>
     <div class="position-absolute top-51 start-50 translate-middle  ">
         <ul class="pagination pagination-lg .pagination-bg">
-          <li class="page-item"><a class="page-link fw-light" href="javascript:loadevents(0)"">Previous</a></li>
-          <li class="page-item"><a class="page-link fw-light" href="javascript:loadevents(1)">1</a></li>
-          <li class="page-item"><a class="page-link fw-light" href="javascript:loadevents(2)">2</a></li>
-          <li class="page-item"><a class="page-link fw-light" href="javascript:loadevents(3)">3</a></li>
-          <li class="page-item"><a class="page-link fw-light" href="javascript:loadevents(99999)">Next</a></li>
+            <li class="page-item"><a class="page-link fw-light" href="javascript:loadevents(0)"">Previous</a></li>
+          <li class=" page-item"><a class="page-link fw-light" href="javascript:loadevents(1)">1</a></li>
+            <li class="page-item"><a class="page-link fw-light" href="javascript:loadevents(2)">2</a></li>
+            <li class="page-item"><a class="page-link fw-light" href="javascript:loadevents(3)">3</a></li>
+            <li class="page-item"><a class="page-link fw-light" href="javascript:loadevents(eventCounter(pageid))">Next</a></li>
         </ul>
-      </nav>
+        </nav>
     </div>
 </body>
+
 </html>

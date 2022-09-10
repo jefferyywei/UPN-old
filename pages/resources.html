@@ -1,157 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resources</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
     <link href='https://fonts.googleapis.com/css?family=Fira Sans' rel='stylesheet'>
-    <link href="../stylesheets/resources.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="../stylesheets/about-us.js"></script>
+    <link rel="stylesheet" href="../stylesheets/about-us.css">
     <link rel="stylesheet" href="../navbar/styles.css">
     <link rel="stylesheet" href="../footer-component/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script>
-        $( document ).ready(function() {
+        $(document).ready(function () {
             console.log("ready!");
             $("#navbar").load("../navbar/navbar.html");
             $("#footer").load("../footer-component/footer.html");
         });
     </script>
 </head>
+
 <body>
     <div id="navbar"></div>
-    <main>
-        <div class="header">
-            <!-- <img id = "navbar" src = "navbar.png"> -->
-            <img id = "title" src="../assets/Group 14.png">
-        </div>
-
+    <section class="parallax1">
+        <div class="frontpage_text">
+            <section class="text-animation display-1 title-text text-center fw-lighter ">
+                Resources
+            </section>
+            <div id="wrapper" class="text-center">
+                <div id="wrapper-inner">
+                    <div id="scroll-down">
+                        <span class="arrow-down text-center">
+                        </span>
+                        <span id="scroll-title" class="text-center">
+                            Scroll down
+                        </span>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section>
+        <section class="title-text display-6 pt-3 pb-3 text-center fw-bold caring-community ">Crisis Assessment
+        </section>
         <div class="resources">
-            <h1>Crisis Assessment</h1> 
-            <h2>Phone: </h2>
-            <p>
-                Montgomery County Hotline (EveryMind): <mark class="redwords">301-738-2255</mark>
-                <br>Montgomery County Crisis Center: <mark class="redwords">240-777-4000</mark>
-                <br>988 Suicide & Crisis Lifeline: <mark class="redwords">988/1-800-273-8255</mark>
-                <br>
-                <br>All calls to these services are free and confidential.
-            </p>
-    
-            <h2>In Person: </h2>
-            <p>
-                Montgomery County Crisis Center
-                <br><mark class="redwords">301 Piccard Drive, Rockville
-                <br>240-777-4000</mark>
-                <br>No appointment needed.
-                <br>
-            </p>
-    
-            <h1>Non-Crisis Mental Health/Substance Use Assessment</h1> 
-            <p>
-                Montgomery County Child and Adolescent Behavioral Health Services
-                <br>Screening & Assessment Services for Children and Adolescents (SASCA)
-                <br><mark class="redwords">240-777-1430</mark>
-                <br>
-                <br>Montgomery County Access to Behavioral Health Services
-                <br><mark class ="small">
-                    Assisstance with obtaining appropriate outpatient mental health or substance 
-                abuse services for adults eligible through the public mental health system.
-                </mark>
-                <br>Walk-in Assessments:
-                <br><mark class="redwords">255 Rockville Pike, Suite 145
-                <br> Rockville, MD
-                <br>240-777-1770</mark>
-                <br>Monday - Friday 9AM or 1PM
-                <br>
-            </p>
-    
-            <p> 
-                InfoMontgomery <mark class=small>(web-based directory of service providers in Montgomery County)
-                    <br>www.infomontgomery.org</mark>
-                    <br>
-            </p>
-        </div>
-
-        <div class = "container">
-            <img id="greenwave" src="../assets/green.png">
-            <div class = "centered">
-                <h2>
-                    <br>Additional information can be found on the website: <mark class="lightred">
-                    <br><a href="https://www.montgomerycountymd.gov/btheone/" target="_blank">BTheOne.org</a></mark>
-                </h2> 
-            </div>
-        </div>
-    
-        <div class = "videolibrary">
-            <p>
-                <br>The State of Maryland approved the Safe Schools Act in 2018 and a report was developed at that tie in assessing student mental health.
-            </p> 
-            <p class = "link">
-                <a href="https://schoolsafety.maryland.gov/Documents/Reports-Docs/Maryland%20Behavioral%20Health%20Gap%20Analysis%20Report-2018-v1.pdf" target="_blank" class="fom">Find Out More</a>
-            </p>
-            
-            <h1 class = "vidlibh1"><br>Coping With the COVID Blues</h1>
-            <div class="copingcovid">
-                <div class="covidvideo">
-                    <iframe width="450" height="350" src="https://www.youtube.com/embed/Sm8tNHkROoE">
-                    </iframe>
-                </div>
-                <div class="covidtext">
-                    <p>
-                        UPN and Poolesville Community Conversations join forces to discuss "Coping with the COVID Blues During the Holidays". Ed Reed moderates the discussion with local mental health professionals: Janet Lamb of Focus Solutions, Sara Rose of MCHHS and Greg Clement of EveryMind. A great resource. Check it out. 
-                    </p>
-                </div>  
-            </div>
-
-            <h1 class="vidlibh1"><br>COVID-19 Video Library</h1>
-            <br>
-            <div class = "c19vidlib">
-                <div class = "facts">
-                    <iframe width="1000" height="330" src="https://www.youtube.com/embed/7HHNU1CX3vo">
-                    </iframe>
-                    <div class = "factstext">
-                        <h3 class="vidlibh3">Facts About COVID-19</h3>
-                        <p>
-                            Andrew Sojka sits down with Dr. Meg Oberman regarding the COVID-19 pandemic. 
-                        </p>
-                    </div>
-                </div>
-
-                <div class = "mentalhealth">
-                    <iframe width="1360" height="330" src="https://www.youtube.com/embed/tiHVZiIeuX4">
-                    </iframe>
-                    <div class = "mhtext">
-                        <h3 class="vidlibh3">Mental Health and COVID-19</h3>
-                        <p>
-                            Andrew Sojka sits down with Rachel Larkin of Everymind to discuss mental health and the COVID-19 pandemic.  
-                        </p>
-                    </div>
-                </div>
-
-                <div class = "domesticviolence">
-                    <iframe width="960" height="330" src="https://www.youtube.com/embed/lnSn9oSb3FQ">
-                    </iframe>
-                    <div class = "dvtext">
-                        <h3 class="vidlibh3">COVID-19 and Domestic Violence</h3>
-                        <p>
-                            Andrew Sokja and Officer Tara Bond discuss domestic violence and COVID-19. 
-                        </p>
+            <div class=" ">
+                <div class="px-4  overflow-hidden ">
+                    <div class="row gx-5">
+                        <div class="col">
+                            <div class="p-3  border-end border-dark ">
+                                <div class="phone">
+                                    <div class="fs-1 fw-light">Phone</div>
+                                    <ul class="fs-5 lh-lg text-start fw-light">
+                                        <li>Montgomery County Hotline (EveryMind):
+                                            <section class="caring-community">301-738-2255</section>
+                                        </li>
+                                        <li>Montgomery County Crisis Center:
+                                            <section class="caring-community">240-777-4000</section>
+                                        </li>
+                                        <li>988 Suicide & Crisis Lifeline:
+                                            <section class="caring-community">988/1-800-273-8255</section>
+                                        </li>
+                                    </ul>
+                                    <div class="fs-6 fw-lighter">All calls to these services are free and confidential.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="p-3  ">
+                                <div class="phone">
+                                    <div class="fs-1 fw-light">In Person</div>
+                                    <ul class="fs-5 lh-lg text-start fw-light">
+                                        <li>Montgomery County Crisis Center:
+                                            <section class="caring-community">301 Piccard Drive, Rockville
+                                                <br>240-777-4000
+                                            </section>
+                                    </ul>
+                                    <div class="fs-6 fw-lighter">No appointment needed</div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
+        </div>
 
-            <h1 class = "vidlibh1"><br>Vaping and Youth</h1>
-            <div class = "vaping">
-                <p>
-                    UPN welcomed local health experts to discuss vaping with our youth.
-                </p>
-                <div class="vapingvideo">
-                    <iframe width="600" height="380" src="https://www.youtube.com/embed/GRZm2dVNBDc">
-                    </iframe>
+        <section class="title-text display-6 pt-3 pb-3 text-center fw-bold caring-community ">Non-Crisis Mental
+            Health/Substance Use Assessment</section>
+        <div class=" ">
+            <div class="px-4  overflow-hidden ">
+                <div class="row gx-5">
+                    <div class="col">
+                        <div class="p-3  border-end border-dark ">
+                            <div class="phone">
+                                <div class="fs-1 fw-light">In Person</div>
+                                <ul class="fs-5 lh-lg text-start fw-light">
+                                    <li>Montgomery County Access to Behavioral Health Services
+                                        <div class="text-black-50 fs-6"> Assistance with obtaining appropriate
+                                            outpatient mental health or substance abuse services for adults eligible
+                                            through the public mental health system.</div>
+                                        <section class="caring-community">240-777-1770 <br>255 Rockville Pike, Suite 145
+                                            Rockville, MD</section>
+                                        <div class="fs-5 lh-lg text-start fw-light">Monday - Friday 9AM or 1PM</div>
+                                    </li>
+                                    InfoMontgomery <br>
+
+                                </ul>
+                                <div class="fs-6 fw-lighter">
+                                </div>
+                                </ul>
+                                <div class="fs-6 fw-lighter">No appointment needed</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="p-3">
+                            <div class="phone">
+                                <div class="fs-1 fw-light">Phone</div>
+                                <ul class="fs-5 lh-lg text-start fw-light">
+                                    <li>Montgomery County Crisis Center:
+                                        <section class="caring-community">301 Piccard Drive, Rockville
+                                            <br>240-777-4000
+                                        </section>
+                                </ul>
+                                <div class="fs-6 fw-lighter">All calls to these services are free and confidential.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </main>
-    <div id="footer"></div>
+        </div>
+
+        <div id="footer"></div>
 </body>
+
 </html>
