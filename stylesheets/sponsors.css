@@ -9,19 +9,20 @@ body{
 
 .sponsors-top{
 position: relative;
-width: 1440px;
-height: 585px;
-
+width: 100%;
+height: 30vh;
+overflow: hidden;
 background: rgba(248, 165, 160, 0.69);
+margin-bottom:5vh;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 #sponsors1{
 position: absolute;
-width: 950px;
-height: 137px;
-left: 35px;
-top: 110px;
-
+height: 15%;
+top:22vh;
 font-family: 'Fira Sans';
 font-style: normal;
 font-weight: 700;
@@ -33,26 +34,13 @@ mix-blend-mode: darken;
 opacity: 0.75;
 }
 
-#wave{
-  position: absolute;
-  bottom:-10px;
-  width:1440px;
-  height:310px;
-}
 
 #sponsorhead{
-  padding:73.5px;
-  position: absolute;
-  width: 764px;
-  height: 96px;
-  left: 418px;
-  top: 50px;
-
+text-align: center;
 font-family: 'Fira Sans';
 font-style: normal;
 font-weight: 700;
-font-size: 100px;
-line-height: 138px;
+font-size: 400%;
 
 color: #070707;
 
@@ -70,4 +58,52 @@ mix-blend-mode: normal;
     padding-left: 95px;
     padding-top: 75px;
     padding-bottom: 75px;
+}
+
+.thanks h2{
+  color:#F96A70;
+  font-size:3rem;
+  font-family: 'Fira Sans';
+  text-align:center;
+}
+
+.green-bg h3{
+  text-align:center;
+}
+
+.row-grid {
+  margin-top:10vh;
+  margin-bottom:10vh;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
 }
