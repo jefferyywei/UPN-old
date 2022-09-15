@@ -1,71 +1,41 @@
+footer {
+    width: 100vw;
 
-/* footer */
-body {
-  background-color: #F2F2F2;
+    position: relative;
+    bottom: 0;
 }
-
-#upn {
-  width: 120px;
-  height: 120px;
-  left: 120px;
-  top: 70px;
-  margin-bottom: -20px;
-}
-
-#icons {
-  width: 185px;
-  height: 48px;
-  margin-left: -10px;
-  margin-top: -20px;
-}
- .main-info{
-  font-family: 'Fira Sans', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 1.3rem;
-  line-height: 1.8rem;
-  color: #5C5C5C; 
-
-
- }
-
-mark.red {
-  color: #F96A70;
-  background: none;
-}
-
-.button {
-  font-family: 'Fira Sans';
-  font-style: normal;
-  /*font-weight: 900;*/
-  font-size: 1.2rem;
-  line-height:2.3rem
-}
-
-/*.column {*/
-/*  float: left;*/
-/*  padding: 0px;*/
-/*}*/
-
-/*.clearfix::after {*/
-/*  content: "";*/
-/*  clear: both;*/
-/*  display: table;*/
-/*}*/
-.container {
+.hr {
     width: 80%;
-    max-width: 80rem;
+    margin: auto;
+}
+.footerlinks {
+    list-style: none;
     display: flex;
     flex-wrap: wrap;
-    gap: 20%;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
 }
+.footerlinks li a {
+    text-decoration: none;
+    color: #0969da;
+}
+.footerlinks li a:hover {
+    text-decoration: underline;
+}
+.footercontainer {
+        padding: 3vh 0;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    gap: 10px;
+    width: clamp(80%, 80%, 72rem);
+}
+.footercontainer p {
 
-
-.clearfix{
-  background-color: #F2F2F2;
-  padding: 1rem;
-  display: flex;
-  align-items: center;
-  
-  /*margin-top:10vh;*/
+    color: #919191;
 }
