@@ -8,12 +8,19 @@ body{
 
 .about-container{
     position:relative;
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
 }
-
+.about-header-container {
+    position:relative;
+}
 .about-img{
     height:22vh;
 }
-
+.head {
+    position: relative;
+}
 .mission {
     position:absolute;
     font-family: 'Fira Sans', sans-serif;
@@ -25,16 +32,18 @@ body{
 }
 
 .about-container p{
-    position:relative;
+
     font-family: 'Merriweather Sans';
     font-weight: 300;
     color: #212121;
     width:40vw;
     font-size:1.7rem;
-    left:8vw;
+
     margin-top:3vh;
 }
-
+.image {
+    position:relative;
+}
 .rect{
     position:absolute;
     top:3vh;
